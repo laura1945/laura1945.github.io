@@ -1,0 +1,23 @@
+.title {
+  color: white;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 10em;
+  width: 100%;
+  background-color: #000;
+}
+.title-fade {
+  width: 100%;
+  height: 20em;
+  background-image: linear-gradient(#000, #0000);
+}
+#title-container {
+  width: 110%;
+  margin-left: -5%;
+  margin-top: -1em;
+}
+body {
+  background-image: url("img/violin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
