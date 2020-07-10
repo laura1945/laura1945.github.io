@@ -1,5 +1,8 @@
 body {
   margin: 0 0 0 0;
+  background-image: url("img/violin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .title {
@@ -28,9 +31,17 @@ body {
 .menu > .space {
   height: 66vh;
 }
+.menu > a {
+  display: block;
+  color: #bad6d5;
+}
 
-body {
-  background-image: url("img/violin.jpg");
-  background-size: cover;
+header > .title {
+  font-size: 5em;
+}
+.submenu > div {
+  background-size: contain;
   background-repeat: no-repeat;
+  width: 40vw;
+  height: 40vw;
 }
