@@ -1,8 +1,8 @@
 body {
   margin: 0 0 0 0;
-  background-image: url("img/violin.jpg");
-  background-size: cover;
+  background-image: url("img/default_bg.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
@@ -31,17 +31,45 @@ body {
 .menu > .space {
   height: 66vh;
 }
-.menu > a {
+.menu a, .submenu a {
   display: block;
   color: #bad6d5;
+  text-decoration: none;
 }
 
 header > .title {
   font-size: 5em;
 }
 .submenu > div {
-  background-size: contain;
+  display: inline-block;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 40vw;
-  height: 40vw;
+  max-height: 40vw;
+}
+
+.submenu {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: -8vw;
+  text-align: center;
+}
+
+.submenu > a {
+  display: inline-block;
+  width: 40vw;
+  height: 30vw;
+  margin: 0 1.5em 0 1.5em;
+}
+.submenu > a > div {
+  width: 100%;
+  padding: 15vw 0 15vw 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.photo-label {
+  font-size: 3em;
+  background-color: #0008;
 }
