@@ -73,3 +73,14 @@ header > .title {
   font-size: 3em;
   background-color: #0008;
 }
+.thumb-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+  margin: 0 2em 0 2em;
+}
+.thumb-container a {
+}
+.thumb-container img {
+  width: 100%;
+}
