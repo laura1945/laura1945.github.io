@@ -77,7 +77,7 @@ header > .title {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2em;
-  margin: 0 2em 0 2em;
+  margin: 0 2em 2em 2em;
 }
 .thumb-container a {
 }
