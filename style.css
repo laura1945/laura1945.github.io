@@ -84,3 +84,25 @@ header > .title {
 .thumb-container img {
   width: 100%;
 }
+.section {
+  width: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: "img txt";
+  grid-gap: 1.5em;
+  padding: 2em;
+}
+.section:nth-of-type(2) {
+  background-color: #8888;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "txt img";
+}
+.section img {
+  grid-area: img;
+  width: 100%;
+}
+.section .desc {
+  grid-area: txt;
+  width: 100%;
+  color: lime;
+}
